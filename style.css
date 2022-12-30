@@ -1,5 +1,6 @@
 *{
     border: 1px solid red;
+    font: arial;
 }
 
 body{
@@ -15,7 +16,7 @@ body{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 20px 20px 200px;
 }
 
 .logo{
@@ -36,5 +37,21 @@ a{
 }
 
 .footer{
-    background-color: #1f2937
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+#p1{
+    background-color: #1f2937;
+}
+
+h1{
+    color: white;
 }
