@@ -43,15 +43,30 @@ a{
     text-align: center;
 }
 
-.content{
+.content-panes{
     display: flex;
     flex-direction: column;
 }
 
 #p1{
     background-color: #1f2937;
+    padding: 100px 100px 100px 0px;
 }
 
 h1{
+    margin-left: 200px;
     color: white;
+}
+
+#subtext{
+    color: rgba(255, 255, 255, 0.72);
+    margin-left: 200px;
+}
+
+#signup{
+    margin-left: 200px;
+    background-color: #3882f6;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border-radius: 10px;
 }
