@@ -54,16 +54,20 @@ a{
 }
 
 h1{
+	margin-bottom: 5px;
     margin-left: 200px;
     color: white;
 }
 
-#subtext{
+h4{
+	margin-top: 5px;
+	margin-left: 200px;
+	margin-bottom: 0px;
     color: rgba(255, 255, 255, 0.72);
-    margin-left: 200px;
 }
 
 #signup{
+	margin-top: 5px;
     margin-left: 200px;
     background-color: #3882f6;
     padding: 5px 20px 5px 20px;
