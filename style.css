@@ -4,9 +4,14 @@
 
 body{
     font-family: roboto;
-    color: white;
 }
 
 #div1{
     background-color: #1f2937;
+}
+
+#div1 > #A > h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
 }
