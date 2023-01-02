@@ -9,11 +9,7 @@ body{
     margin: 0px;
     padding: 0px;
     display: flex;
-}
-
-.black-margin{
-    width: 500px;
-    background-color: black;
+    flex-direction: column;
 }
 
 /********************* div1 ******************************/
@@ -22,10 +18,42 @@ body{
     background-color: #1f2937;
 }
 
+/********************** div1 > header **********************/
+
+#div1 > #header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#div1 > #header > #header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 135px;
+    margin-bottom: 150px;
+}
+
+#div1 > #header > #header-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 135px;
+    margin-bottom: 150px
+}
+
+#div1 > #header > #header-links > #link2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /***************** div1 > not-header ***********************/
+
+#div1 > #not-header{
+    display: flex;
+    justify-content: space-between;
+}
 
 #div1 > #not-header > #image-placeholder{
     margin: 0px;
+    margin-right: 135px;
     background-color: lightslategray;
     color: white;
     width: 500px;
@@ -40,6 +68,10 @@ body{
 }
 
 /*********************** div1 > not-header > A *************/
+
+#div1 > #not-header > #A{
+    padding-left: 135px;
+}
 
 #div1 > #not-header > #A > h1{
     font-size: 48px;
@@ -62,27 +94,4 @@ body{
 #div1 > #not-header > #A > h2, #div1 > #header > #header-links{
     font-size: 18px;
     color: #e5e7eb;
-}
-
-/********************** div1 > header **********************/
-
-#div1 > #header{
-    display: flex;
-    justify-content: space-around;
-}
-
-#div1 > #header > #header-logo{
-    font-size: 24px;
-    color: #f9faf8;
-}
-
-#div1 > #header > #header-links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#div1 > #header > #header-links > #link2{
-    margin-left: 10px;
-    margin-right: 10px;
 }
