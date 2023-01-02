@@ -6,21 +6,29 @@
 
 body{
     font-family: roboto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
 }
 
 /**********************************************************/
+
+.black-margin{
+    width: 500px;
+    background-color: black;
+}
 
 #div1{
     background-color: #1f2937;
 }
 
-#div1 > #A > h1{
+#div1 > #not-header > #A > h1{
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
 }
 
-#div1 > #A > button{
+#div1 > #not-header > #A > button{
     background-color: #3882f6;
     color: white;
     border-radius: 10px;
@@ -35,7 +43,7 @@ body{
     color: #f9faf8;
 }
 
-#div1 > #A > h2, #div1 > #header > #header-links{
+#div1 > #not-header > #A > h2, #div1 > #header > #header-links{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -54,4 +62,18 @@ body{
 #div1 > #header{
     display: flex;
     justify-content: space-around;
+}
+
+#div1 > #not-header > #image-placeholder{
+    background-color: lightslategray;
+    color: white;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1 > #not-header{
+    display: flex;
 }
