@@ -2,7 +2,7 @@
     border: 1px solid red;
 }
 
-/**********************************************************/
+/************************** body ****************************/
 
 body{
     font-family: roboto;
@@ -11,60 +11,21 @@ body{
     display: flex;
 }
 
-/**********************************************************/
-
 .black-margin{
     width: 500px;
     background-color: black;
 }
 
+/********************* div1 ******************************/
+
 #div1{
     background-color: #1f2937;
 }
 
-#div1 > #not-header > #A > h1{
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: bolder;
-}
-
-#div1 > #not-header > #A > button{
-    background-color: #3882f6;
-    color: white;
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-#div1 > #header > #header-logo{
-    font-size: 24px;
-    color: #f9faf8;
-}
-
-#div1 > #not-header > #A > h2, #div1 > #header > #header-links{
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-#div1 > #header > #header-links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#div1 > #header > #header-links > #link2{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#div1 > #header{
-    display: flex;
-    justify-content: space-around;
-}
+/***************** div1 > not-header ***********************/
 
 #div1 > #not-header > #image-placeholder{
+    margin: 0px;
     background-color: lightslategray;
     color: white;
     width: 500px;
@@ -76,4 +37,52 @@ body{
 
 #div1 > #not-header{
     display: flex;
+}
+
+/*********************** div1 > not-header > A *************/
+
+#div1 > #not-header > #A > h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+#div1 > #not-header > #A > button{
+    margin: 0px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#div1 > #not-header > #A > h2, #div1 > #header > #header-links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/********************** div1 > header **********************/
+
+#div1 > #header{
+    display: flex;
+    justify-content: space-around;
+}
+
+#div1 > #header > #header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#div1 > #header > #header-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#div1 > #header > #header-links > #link2{
+    margin-left: 10px;
+    margin-right: 10px;
 }
