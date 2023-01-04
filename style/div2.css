@@ -15,6 +15,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 85px;
 }
 
 #div2 > #image-container > .img-space > h2{
@@ -33,7 +34,4 @@
     width: 100px;
     height: 100px;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
