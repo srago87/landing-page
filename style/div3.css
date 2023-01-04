@@ -1,0 +1,20 @@
+#quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#by-thor{
+    font-weight: bold;
+    margin-left: 1175px;
+}
+
+#quote-div{
+    display: flex;
+    justify-content: center;
+}
+
+#div3{
+    background-color: #e5e7eb;
+}
