@@ -1,6 +1,10 @@
 
 /*********************** #div2 ***********************************/
 
+#div2{
+    padding-top: 15px;
+}
+
 #div2 > h1{
     font-weight: bolder;
     font-size: 36px;
@@ -16,6 +20,7 @@
     align-items: center;
     justify-content: center;
     gap: 85px;
+    margin-bottom: 100px;
 }
 
 #div2 > #image-container > .img-space > h2{
