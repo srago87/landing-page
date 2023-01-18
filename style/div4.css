@@ -1,0 +1,38 @@
+#div4 > #call-div{
+    background-color: #3882f6;
+    margin: 200px 500px 200px 500px;
+    padding: 50px 125px 50px 125px;
+}
+
+#div4 > #call-div > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#div4 > #call-div > div > div{
+ 
+}
+
+#div4 > #call-div > div > div > h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#div4 > #call-div > div > div > h3{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+#div4 > #call-div > div > button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    border: 3px solid white;
+}
