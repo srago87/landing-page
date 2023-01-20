@@ -49,3 +49,21 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+#middle-part{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.black-margin{
+    background-color: black;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 600px;
+}
