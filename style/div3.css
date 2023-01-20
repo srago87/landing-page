@@ -3,11 +3,18 @@
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: auto;
 }
 
 #by-thor{
+    text-align: right;
     font-weight: bold;
-    margin-left: 1175px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #quote-div{
@@ -17,4 +24,6 @@
 
 #div3{
     background-color: #e5e7eb;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }

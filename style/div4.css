@@ -1,6 +1,7 @@
 #div4 > #call-div{
+    border-radius: 10px;
     background-color: #3882f6;
-    margin: 200px 500px 200px 500px;
+    margin: 500px 100px 500px 100px;
     padding: 50px 125px 50px 125px;
 }
 
@@ -8,10 +9,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#div4 > #call-div > div > div{
- 
 }
 
 #div4 > #call-div > div > div > h2{
@@ -27,6 +24,7 @@
 }
 
 #div4 > #call-div > div > button{
+    border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 2px;
@@ -48,11 +46,6 @@
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-body{
-    display: flex;
-    flex-direction: row;
 }
 
 #middle-part{
